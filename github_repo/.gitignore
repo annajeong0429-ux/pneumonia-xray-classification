@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+
+# 모델 가중치 (용량 큼)
+*.pth
+*.pt
+*.ckpt
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# 데이터 (비공개)
+data/
+train/
+test/
+val/
+*.csv
+!results/best_submission_0.9615.csv
+
+# 기타
+.DS_Store
+Thumbs.db
